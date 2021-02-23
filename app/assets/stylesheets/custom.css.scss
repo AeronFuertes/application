@@ -33,6 +33,7 @@ $navbar-default-bg: #302f2b;
   background-repeat: no-repeat;
 }
 
+
 .jumbotron h1 {
 
   text-align:center;
@@ -51,12 +52,34 @@ $navbar-default-bg: #302f2b;
 
 }
 
-footer {
-  margin-top: 45px;
+.article-actions {
+  border-top: 0.2px solid #eaeaea;
   padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+.article-body {
   border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer {
+  margin-top: 1000px;
+  padding-top: 5px;
+  border-top: 0.1px solid #eaeaea;
   color: #777;
 }
+
 
 footer a:hover {
   color: #222;
